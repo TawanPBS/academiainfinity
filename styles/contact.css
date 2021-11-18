@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    background-image: url("images/inicio1.jpg");
+    background-repeat: no-repeat;
+}
+
+.menu{
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    background-color: #d9ff00;
+    height: 8%;
+    width: 80%;
+    left: 10%;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu .home div{
+    position: relative;
+    left: 410%;
+    top: 30%;
+}
+
+.menu .about div{
+    position: relative;
+    left: 585%;
+    top: 30%;
+}
+
+.menu .contact div{
+    position: relative;
+    left: 800%;
+    top: 30%;
+}
+
+.menu .restricted div{
+    position: relative;
+    left: 600%;
+    top: 30%;
+}
+
+.rodape{
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    height: 10.5%;
+    width: 80%;
+    background-color: #a3c000;
+    display: flex;
+    flex: 1;
+}
+
+.rodape content{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-weight: 700;
+    display: flex;
+    flex: 1;
+}
+
+.conteudo-pag{
+    position: absolute;
+    background-color: #fffceadc;
+    height: 95%;
+    width: 80%;
+    left: 10%;
+    top: 8%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.dados{
+    position: relative;
+    top: 10%;
+    left: 22%;
+    width: 55%;
+    height: 80%;
+    
+}
+
+.dados form{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.nome{
+    position: relative;
+    left: 20%;
+}
+.nome span{
+    position: relative;
+    left: 3%;
+}
+
+
+.email{
+    position: relative;
+    left: 20%;
+}
+.email span{
+    position: relative;
+    left: 3%;
+}
+
+.tel{
+    position: relative;
+    left: 20%;
+}
+.tel span{
+    position: relative;
+    left: 3%;
+}
+
+.opt{
+    position: relative;
+    left: 20%;
+}
+
+.opt span{
+    position: relative;
+    left: 3%;
+}
+
+.btn{
+    position: relative;
+    left: 38%;
+    top: 10%;
+    width: 25%;
+    height: 10%;
+    background-color: #d9ff00;
+    border: 0;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #a3c000;
+    transition: 700ms;
+}
+
+.inp{
+    position: relative;
+    left: 3%;
+    border-radius: 10px;
+    border: 0;
+    background-color: #c9c9c9;
+    color: #000000;
+    height: 40px;
+    width: 50%;
+    outline: none;
+}
+
+.inp:hover{
+    cursor: pointer;
+    background-color: #a7a7a7;
+    transition: 700ms;
+}
+
+h2{
+    position: absolute;
+    left: 44%;
+    font-size: 200%;
+}
+
+fieldset{
+    background-color: rgb(238, 238, 238);
+    height: 80%;
+}
