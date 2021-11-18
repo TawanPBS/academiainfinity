@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    background-image: url("../images/inicio1.jpg");
+    background-repeat: no-repeat;
+}
+
+.menu{
+    position: absolute;
+    text-decoration: none;
+    display: flex;
+    flex: 1;
+    background-color: #d9ff00;
+    height: 8%;
+    width: 80%;
+    left: 10%;
+    top: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu .home div{
+    position: relative;
+    left: 410%;
+    top: 30%;
+}
+
+.menu .about div{
+    position: relative;
+    left: 585%;
+    top: 30%;
+}
+
+.menu .contact div{
+    position: relative;
+    left: 800%;
+    top: 30%;
+}
+
+.menu .restricted div{
+    position: relative;
+    left: 600%;
+    top: 30%;
+}
+
+.rodape{
+    position: absolute;
+    top: 89.5%;
+    left: 10%;
+    height: 10.5%;
+    width: 80%;
+    background-color: #a3c000;
+    display: flex;
+    flex: 1;
+}
+
+.rodape content{
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    font-weight: 700;
+    display: flex;
+    flex: 1;
+}
+
+.conteudo-pag{
+    position: fixed;
+    background-color: #fffceadc;
+    height: 140%;
+    width: 80%;
+    left: 10%;
+    top: 8%;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position: relative;
+    width: 70%;
+    height: 40%;
+    left: 15%;
+    top: 3%;
+    animation: changeBackgroundImage 25s infinite;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+@keyframes changeBackgroundImage {
+    0% {
+      background-image: url('images/3.jpg');
+    }
+    25% {
+      background-image: url('images/inicio2.jpg');
+    }
+    50% {
+      background-image: url('images/4.jpg');
+    }
+    75% {
+      background-image: url('images/5.jpg');
+    }
+    100% {
+      background-image: url('images/6.jpg');
+    }
+}
+
+.txt1{
+    position: fixed;
+    align-items: center;
+    width: 56%;
+    height: 15%;
+    left: 22%;
+    top: 70%;
+    margin: 0;
+    padding: 0;
+}
+
+.txt1 a{
+    text-decoration: none;
+    color: #ff0000;
+}
